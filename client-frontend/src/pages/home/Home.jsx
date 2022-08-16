@@ -1,7 +1,9 @@
 import React from "react"
 import { Featured } from "../../components/featured/Featured";
 import { FeaturedProperties } from "../../components/featuredProperties/FeaturedProperties.jsx";
+import { Footer } from "../../components/footer/Footer";
 import Header from "../../components/header/Header";
+import { MailList } from "../../components/mailList/MailList";
 import Navbar from "../../components/navbar/Navbar";
 import { PropertyList } from "../../components/propertyList/PropertyList";
 import "./home.css"
@@ -16,7 +18,10 @@ const Home=()=>{
             <PropertyList></PropertyList>
             <h1 className="homeTitle">Featured</h1>
             <FeaturedProperties></FeaturedProperties>
+            <MailList></MailList>
+            <Footer></Footer>
             </div>
+
         </div>
     )
 }
